@@ -78,6 +78,22 @@
 
 #creative .why-card ul {
     text-align: left !important;
+    list-style: none !important;
+    padding: 0 !important;
+}
+
+#creative .why-card ul li {
+    padding-left: 1.5rem !important;
+    position: relative !important;
+    margin-bottom: var(--spacing-sm) !important;
+}
+
+#creative .why-card ul li::before {
+    content: "✓" !important;
+    position: absolute !important;
+    left: 0 !important;
+    color: var(--accent-teal) !important;
+    font-weight: bold !important;
 }
 
 /* Ensure all sections are visible (no fade-in animations) */

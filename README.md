@@ -19,7 +19,7 @@ This presentation outlines a comprehensive plan to leverage approved AI tools (G
 9. **Expertise & Credibility** - 17 years Verizon experience + AI mastery
 10. **Deliverables** - AI Playbook, templates, training materials
 11. **Expected Outcomes** - Measurable results and improvements
-12. **Next Steps** - 6-week pilot proposal
+12. **Next Steps** - 8-week pilot proposal
 13. **Contact Information** - Professional contact details
 
 ## 🎨 Design Features
