@@ -70,30 +70,52 @@
 /* Left-align text in Visual Creation section */
 #creative .why-card {
     text-align: left !important;
+    padding: var(--spacing-md) !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    word-wrap: break-word !important;
 }
 
 #creative .why-icon {
     margin: 0 0 var(--spacing-sm) 0 !important;
 }
 
+#creative .why-card h3 {
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    hyphens: auto !important;
+    margin-bottom: var(--spacing-sm) !important;
+}
+
 #creative .why-card ul {
     text-align: left !important;
     list-style: none !important;
     padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
 }
 
 #creative .why-card ul li {
     padding-left: 1.5rem !important;
+    padding-right: 0 !important;
     position: relative !important;
     margin-bottom: var(--spacing-sm) !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    hyphens: auto !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
 }
 
 #creative .why-card ul li::before {
     content: "✓" !important;
     position: absolute !important;
     left: 0 !important;
+    top: 0 !important;
     color: var(--accent-teal) !important;
     font-weight: bold !important;
+    flex-shrink: 0 !important;
 }
 
 /* Ensure all sections are visible (no fade-in animations) */
@@ -675,6 +697,9 @@ h1, h2, h3, h4, h5, h6, p, li, td, th {
     text-align: center;
     transition: all var(--transition-normal);
     position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    word-wrap: break-word;
 }
 
 .why-card:hover {
@@ -1659,6 +1684,38 @@ h1, h2, h3, h4, h5, h6, p, li, td, th {
         padding: var(--spacing-sm);
         margin: 0;
         max-width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+
+    /* Mobile-specific fixes for Visual Creation section */
+    #creative .why-card {
+        padding: 1rem !important;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    #creative .why-card ul {
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100% !important;
+    }
+
+    #creative .why-card ul li {
+        font-size: 0.9rem !important;
+        line-height: 1.6 !important;
+        padding-left: 1.5rem !important;
+        padding-right: 0.5rem !important;
+        margin-bottom: 0.75rem !important;
+        word-break: break-word !important;
+        overflow-wrap: break-word !important;
+    }
+
+    #creative .why-card h3 {
+        font-size: 1.1rem !important;
+        margin-bottom: 1rem !important;
+        word-break: break-word !important;
     }
 
     /* Fix timeline on mobile */
