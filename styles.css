@@ -759,6 +759,70 @@ body {
     font-size: clamp(0.95rem, 2vw, 1.05rem);
 }
 
+/* Value Proposition List Style */
+.value-prop-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.value-prop-card {
+    background: var(--white);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    border-left: 6px solid var(--turquoise);
+}
+
+.value-prop-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.value-prop-list li {
+    padding: var(--spacing-md) 0;
+    padding-left: 2.5rem;
+    position: relative;
+    border-bottom: 1px solid var(--medium-gray);
+    font-size: clamp(1rem, 2vw, 1.125rem);
+    line-height: 1.6;
+    color: var(--dark-gray);
+}
+
+.value-prop-list li:last-child {
+    border-bottom: none;
+}
+
+.value-prop-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: var(--spacing-md);
+    width: 32px;
+    height: 32px;
+    background: var(--turquoise);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 767px) {
+    .value-prop-list li {
+        padding-left: 2rem;
+        font-size: 0.95rem;
+    }
+
+    .value-prop-list li::before {
+        width: 28px;
+        height: 28px;
+        font-size: 1rem;
+    }
+}
+
 /* ===========================
    OPERATING GRID
    =========================== */
