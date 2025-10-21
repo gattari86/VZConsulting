@@ -727,6 +727,38 @@ body {
     line-height: 1.6;
 }
 
+/* New advantage card style with icon on top */
+.advantage-card-new {
+    background: var(--white);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantage-icon-top {
+    width: 56px;
+    height: 56px;
+    background: var(--turquoise);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: var(--spacing-md);
+}
+
+.advantage-card-new p {
+    color: var(--dark-gray);
+    line-height: 1.6;
+    font-size: clamp(0.95rem, 2vw, 1.05rem);
+}
+
 /* ===========================
    OPERATING GRID
    =========================== */
