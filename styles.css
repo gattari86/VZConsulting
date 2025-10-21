@@ -366,12 +366,12 @@ body {
 
 .gem-card {
     background: var(--black);
-    color: var(--neon-yellow);
+    color: var(--white);
     padding: var(--spacing-lg);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-md);
     text-align: center;
-    border: 2px solid var(--verizon-red);
+    border: 2px solid var(--neon-yellow);
 }
 
 .gem-card-full {
@@ -383,6 +383,7 @@ body {
     font-size: clamp(1.125rem, 2vw, 1.35rem);
     margin-bottom: var(--spacing-sm);
     font-weight: 700;
+    color: var(--neon-yellow);
 }
 
 .gem-card p {
@@ -576,12 +577,12 @@ body {
 
 .output-card {
     background: var(--black);
-    color: var(--neon-yellow);
+    color: var(--white);
     padding: var(--spacing-lg);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-md);
     text-align: center;
-    border: 2px solid var(--verizon-red);
+    border: 2px solid var(--neon-yellow);
 }
 
 .output-card h3 {
@@ -589,6 +590,7 @@ body {
     font-size: clamp(1.125rem, 2vw, 1.25rem);
     margin-bottom: var(--spacing-sm);
     font-weight: 700;
+    color: var(--neon-yellow);
 }
 
 .output-card p {
