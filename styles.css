@@ -82,7 +82,7 @@ body {
    HERO SECTION (HIGH-ENERGY)
    =========================== */
 .hero {
-    background: linear-gradient(135deg, var(--verizon-red) 0%, var(--neon-yellow) 100%);
+    background: linear-gradient(135deg, var(--verizon-red) 0%, var(--verizon-red) 70%, var(--neon-yellow) 100%);
     color: var(--white);
     padding: clamp(4rem, 10vw, 8rem) var(--spacing-md);
     text-align: center;
@@ -365,12 +365,13 @@ body {
 }
 
 .gem-card {
-    background: linear-gradient(135deg, var(--verizon-red) 0%, var(--neon-yellow) 100%);
-    color: var(--black);
+    background: var(--black);
+    color: var(--neon-yellow);
     padding: var(--spacing-lg);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-md);
     text-align: center;
+    border: 2px solid var(--verizon-red);
 }
 
 .gem-card-full {
@@ -574,12 +575,13 @@ body {
 }
 
 .output-card {
-    background: linear-gradient(135deg, var(--verizon-red) 0%, var(--neon-yellow) 100%);
-    color: var(--black);
+    background: var(--black);
+    color: var(--neon-yellow);
     padding: var(--spacing-lg);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-md);
     text-align: center;
+    border: 2px solid var(--verizon-red);
 }
 
 .output-card h3 {
@@ -913,7 +915,7 @@ body {
    CONTACT SECTION (High-Energy)
    =========================== */
 .contact-section {
-    background: linear-gradient(135deg, var(--verizon-red) 0%, var(--neon-yellow) 100%);
+    background: linear-gradient(135deg, var(--verizon-red) 0%, var(--verizon-red) 70%, var(--neon-yellow) 100%);
     color: var(--white);
 }
 
